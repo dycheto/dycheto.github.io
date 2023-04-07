@@ -1,0 +1,53 @@
+:root {
+  --color-accent: #0d2438;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.scrollToTop {
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 999;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.9;
+}
+
+.scrollToTop:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    display: grid;
+  }
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// @media (max-width: 900px) {
+//   .site-content {
+//     flex-direction: column;
+//     padding: 2rem;
+//   }
+// }

@@ -1,0 +1,25 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Light theme */
+  .projects-container.light .project-card {
+    background-color: #f5f5f5;
+  }
+  
+  .projects-container.light .project-details {
+    color: #333;
+  }
+  
+  /* Dark theme */
+  .projects-container.dark .project-card {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  .projects-container.dark .project-details {
+    color: #f5f5f5;
+  }
+  

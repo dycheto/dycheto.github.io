@@ -1,0 +1,47 @@
+.contact-page{
+    height: 69vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+
+.lg\:flex-row {
+    @media only screen and (min-width: 1024px) {
+        flex-direction: row;
+    }
+}
+
+.py-5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .py-5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg\:py-10 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
