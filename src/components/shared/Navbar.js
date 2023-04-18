@@ -8,7 +8,6 @@ import Switch from 'react-switch';
 export default function Navbar() {
   const { currentTheme, toggleTheme, isDarkMode } = useContext(ThemeContext);
   themeService.setTheme(currentTheme);
-  const theme = themeService.getTheme();
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', currentTheme);

@@ -4,7 +4,6 @@ import ContactDetails from '../../components/contact/ContactDetails';
 import { useTheme } from '../../hooks/useTheme';
 
 const Contact = () => {
-    const { currentTheme } = useTheme();
 
     return (
         <motion.section

@@ -1,5 +1,4 @@
 import './AboutMe.scss';
-import { useState } from 'react';
 
 import { motion } from 'framer-motion';
 import { useTheme } from '../../hooks/useTheme';
@@ -9,7 +8,8 @@ import TechStack from '../../components/TeckStack/TechStack';
 export default function AboutMe() {
     const { currentTheme } = useTheme();
 
-    const [profileImg, setProfileImage] = useState(`https://firebasestorage.googleapis.com/v0/b/react-e-commerce-app-dycheto.appspot.com/o/images%2FprofilePicture.jpg?alt=media&token=c5523c47-7223-4c77-b157-dc3e51f37511`);
+
+    const profileImg= `https://firebasestorage.googleapis.com/v0/b/react-e-commerce-app-dycheto.appspot.com/o/images%2FprofilePicture.jpg?alt=media&token=c5523c47-7223-4c77-b157-dc3e51f37511`;
 
     return (
         

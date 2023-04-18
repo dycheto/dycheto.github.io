@@ -1,13 +1,10 @@
 import './Home.scss';
 
 import { motion } from 'framer-motion';
-import { FiArrowDownCircle } from 'react-icons/fi';
-import developerImg from '../images/developer.svg';
 import { useTheme } from '../hooks/useTheme';
-import Button from '../components/reusable/Button';
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
+  const { theme} = useTheme();
 
   const devImg = `https://firebasestorage.googleapis.com/v0/b/react-e-commerce-app-dycheto.appspot.com/o/developer.svg?alt=media&token=620c3cce-573e-43e9-864f-d9373e0924ff`;
 
