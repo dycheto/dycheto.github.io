@@ -9,7 +9,6 @@ import Projects from './pages/Projects/Projects';
 import SingleProject from './pages/SingleProject/SingleProject';
 import Footer from './components/shared/Footer';
 
-
 function App() {
   return (
 
@@ -22,6 +21,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/projects/:id' element={<SingleProject />} />
+          
         </Routes>
       </div>
       <Footer />

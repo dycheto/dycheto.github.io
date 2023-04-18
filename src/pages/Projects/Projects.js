@@ -13,7 +13,7 @@ export default function Projects() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-            className={`projects-wrapper`}
+            className={`projects-wrapper parallax`}
         >
 
             <div className={`projects-container ${theme}`} >

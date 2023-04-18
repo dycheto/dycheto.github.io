@@ -17,7 +17,7 @@ export default function AboutMe() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-                className={`about-page ${currentTheme === "dark" ? "about-page--dark" : "about-page"}`}
+                className={`about-page parallax ${currentTheme === "dark" ? "about-page--dark" : "about-page"}`}
             >
                 <div className="about-content">
                     <div className="about-image-container">

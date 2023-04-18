@@ -7,7 +7,7 @@ const Contact = () => {
     const { currentTheme } = useTheme();
 
     return (
-        <motion.div
+        <motion.section
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
@@ -15,10 +15,10 @@ const Contact = () => {
                 duration: 0.5,
                 delay: 0.1,
             }}
-            className={`contact-page`}
+            className={`contact-page parallax`}
         >
             <ContactDetails />
-        </motion.div >
+        </motion.section >
     );
 };
 
